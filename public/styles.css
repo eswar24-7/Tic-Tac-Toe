@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: lightgrey;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  text-align: center;
+}
+.title {
+  margin-top: 50px;
+  color: darkcyan;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.reset {
+  width: 200px;
+  height: 75px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50px;
+  background: lightskyblue;
+  font-size: 25px;
+  color: darkblue;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.boxes {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  background: white;
+  border: 5px solid lightyellow;
+  cursor: pointer;
+}
+.table {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  margin: auto;
+}
+.boxes img {
+  margin: 20px 20px;
+}
